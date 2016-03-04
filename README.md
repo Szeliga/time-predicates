@@ -4,8 +4,8 @@
 * [Documentation](http://rubydoc.info/gems/timeline/frames)
 * [Email](mailto:szymon.szeliga at netguru.co)
 
-[![Build Status](https://secure.travis-ci.org//timeline.svg?branch=master)](https://travis-ci.org//timeline)
-[![Code Climate GPA](https://codeclimate.com/github//timeline/badges/gpa.svg)](https://codeclimate.com/github//timeline)
+[![Build Status](https://secure.travis-ci.org/Szeliga/timeline.svg?branch=master)](https://travis-ci.org/Szeliga/timeline)
+[![Code Climate GPA](https://codeclimate.com/github/Szeliga/timeline/badges/gpa.svg)](https://codeclimate.com/github/Szeliga/timeline)
 
 ## Description
 
