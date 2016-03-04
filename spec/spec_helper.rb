@@ -1,6 +1,7 @@
 require "codeclimate-test-reporter"
 CodeClimate::TestReporter.start
 require "rspec"
+require "time_predicates"
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
