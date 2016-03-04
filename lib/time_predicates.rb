@@ -1,4 +1,4 @@
-require "time-predicates/version"
+require "timepredicates/version"
 
 module TimePredicates
   def after?(moment)
