@@ -2,18 +2,18 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "timeline/version"
+require "time_predicates/version"
 require "English"
 
 Gem::Specification.new do |gem|
-  gem.name          = "timeline"
-  gem.version       = Timeline::VERSION
+  gem.name          = "time-predicates"
+  gem.version       = TimePredicates::VERSION
   gem.summary       = "Simple library for date comparisons"
   gem.description   = "Having trouble figuring out which date is in the future looking at > or < ?"
   gem.license       = "MIT"
   gem.authors       = ["Szymon Szeliga"]
   gem.email         = "szeliga.szymon@gmail.com"
-  gem.homepage      = "https://github.com/szeliga/timeline"
+  gem.homepage      = "https://github.com/szeliga/time-predicates"
 
   gem.files         = `git ls-files`.split($RS)
 

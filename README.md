@@ -1,11 +1,7 @@
-# timeline
+# Time Predicates
 
-* [Homepage](https://rubygems.org/gems/timeline)
-* [Documentation](http://rubydoc.info/gems/timeline/frames)
-* [Email](mailto:szymon.szeliga at netguru.co)
-
-[![Build Status](https://secure.travis-ci.org/Szeliga/timeline.svg?branch=master)](https://travis-ci.org/Szeliga/timeline)
-[![Code Climate GPA](https://codeclimate.com/github/Szeliga/timeline/badges/gpa.svg)](https://codeclimate.com/github/Szeliga/timeline)
+[![Build Status](https://secure.travis-ci.org/Szeliga/time-predicates.svg?branch=master)](https://travis-ci.org/Szeliga/time-predicates)
+[![Code Climate GPA](https://codeclimate.com/github/Szeliga/time-predicates/badges/gpa.svg)](https://codeclimate.com/github/Szeliga/time-predicates)
 
 ## Description
 
@@ -15,13 +11,17 @@ TODO: Description
 
 ## Examples
 
-    require 'timeline'
+    require 'time-predicates'
 
 ## Requirements
 
 ## Install
 
-    $ gem install timeline
+    $ gem install time-predicates
+
+or add to your `Gemfile`
+
+    gem "time-predicates"
 
 ## Copyright
 

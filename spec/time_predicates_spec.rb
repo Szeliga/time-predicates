@@ -1,7 +1,7 @@
 require "spec_helper"
-require "timeline/predicates"
+require "time_predicates"
 
-describe Timeline::Predicates do
+describe TimePredicates do
   describe "#after?" do
     subject(:predicate) { future.after?(past) }
 
