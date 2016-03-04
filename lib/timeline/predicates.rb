@@ -18,5 +18,5 @@ module Timeline
   end
 end
 
-Date.include Timeline::Predicates
-Time.include Timeline::Predicates
+Date.send(:include, Timeline::Predicates)
+Time.send(:include, Timeline::Predicates)
