@@ -1,0 +1,29 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'Guardfile'
+    - 'Rakefile'
+Documentation:
+  Enabled: false
+Metrics/ClassLength:
+  Max: 150
+Metrics/LineLength:
+  Enabled: true
+  Max: 100
+Rails/ActionFilter:
+  Enabled: false
+SignalException:
+  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: comma
+  Enabled: true
+TrailingCommaInArguments:
+  Enabled: false
+Style/DotPosition:
+  EnforcedStyle: leading
+  Enabled: true

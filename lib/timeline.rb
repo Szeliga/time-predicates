@@ -1,1 +1,1 @@
-require 'timeline/version'
+require "timeline/version"
