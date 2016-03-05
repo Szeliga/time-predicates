@@ -19,10 +19,10 @@ gem "time-predicates"
 
 Following predicate methods are available:
 
-* `Date.yesterday.after?(Date.today)`
-* `Date.yesterday.after_or_equal?(Date.today)`
-* `Date.yesterday.before?(Date.today)`
-* `Date.yesterday.before_or_equal?(Date.today)`
+* `Date.parse("2016-03-05").after?(Date.parse('2016-03-04'))`
+* `Date.parse("2016-03-05").after_or_equal?(Date.parse("2016-03-05"))`
+* `Date.parse('2016-03-04').before?(Date.parse("2016-03-05"))`
+* `Date.parse('2016-03-04').before_or_equal?(Date.parse('2016-03-04'))`
 
 The method names are pretty self-explanatory.
 
