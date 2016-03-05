@@ -30,4 +30,4 @@ The method names are pretty self-explanatory.
 
 Copyright (c) 2016 Szymon Szeliga
 
-See {file:LICENSE.txt} for details.
+See [LICENSE](LICENSE.txt) for details.
